@@ -9,5 +9,15 @@ public class Main {
         System.out.println(num.mult(3,5));
         System.out.println(Math.z);
 
+        System.out.println("-------------------------");
+
+        Array myarr = new MyArray();
+        myarr.Add(4);
+        myarr.Add(3);
+        myarr.Add(44);
+        myarr.Add(35);
+        myarr.Add(24);
+        System.out.println(myarr.Get(3));
+
     }
 }
