@@ -10,6 +10,7 @@ public class Main {
         System.out.println(Math.z);
 
         System.out.println("-------------------------");
+        System.out.println("-------------------------");
 
         Array myarr = new MyArray();
         myarr.Add(4);
