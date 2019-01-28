@@ -1,7 +1,7 @@
 package cf.tilgiz;
 
 public class MyArray implements Array{
-    private int[] a = new int[10];
+    private int[] a = new int[5];
     private int size;
 
     @Override

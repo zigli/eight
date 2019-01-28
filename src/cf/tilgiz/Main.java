@@ -13,11 +13,12 @@ public class Main {
         System.out.println("-------------------------");
 
         Array myarr = new MyArray();
-        myarr.Add(4);
-        myarr.Add(3);
-        myarr.Add(44);
-        myarr.Add(35);
-        myarr.Add(24);
+        System.out.println(myarr.Add(4));
+        System.out.println(myarr.Add(3));
+        System.out.println(myarr.Add(44));
+        System.out.println(myarr.Add(35));
+        System.out.println(myarr.Add(24));
+        System.out.println(myarr.Add(14));
         System.out.println(myarr.Get(3));
 
     }
