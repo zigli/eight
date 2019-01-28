@@ -21,5 +21,18 @@ public class Main {
         System.out.println(myarr.Add(14));
         System.out.println(myarr.Get(3));
 
+        System.out.println("-------------------------");
+        System.out.println("-------------------------");
+
+        Array_1 myarr_1 = new Array_1();
+        System.out.println(myarr_1.Add(4));
+        System.out.println(myarr_1.Add(3));
+        System.out.println(myarr_1.Add(44));
+        System.out.println(myarr_1.Add(35));
+        System.out.println(myarr_1.Add(24));
+        System.out.println(myarr_1.Add(14));
+        System.out.println(myarr_1.ArrLeng());
+        System.out.println(myarr_1.Get(0));
+
     }
 }
